@@ -48,5 +48,5 @@ jobs:
         with:
           name: vitest
           path: test-results.xml
-          reporter: junit
+          reporter: java-junit
           github_token: ${{ secrets.GITHUB_TOKEN }}
