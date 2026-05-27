@@ -1,4 +1,4 @@
-name: 
+name:
 
 on:
   push:
@@ -48,5 +48,5 @@ jobs:
         with:
           name: vitest
           path: test-results.xml
-          reporter: java-unit
+          reporter: java-junit
           github_token: ${{ secrets.GITHUB_TOKEN }}
